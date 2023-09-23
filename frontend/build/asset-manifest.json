@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f73f6cc.css",
+    "main.js": "/static/js/main.1d72b255.js",
+    "static/js/787.1f17f9c7.chunk.js": "/static/js/787.1f17f9c7.chunk.js",
+    "static/media/landingPage.png": "/static/media/landingPage.ccf32621f0bdecb1c7a6.png",
+    "static/media/no-book-found.png": "/static/media/no-book-found.4b8e414cbce468d16700.png",
+    "static/media/empty-bag.png": "/static/media/empty-bag.6da43babbecd35910657.png",
+    "static/media/sign-in-page.png": "/static/media/sign-in-page.dc2134bccf3b1b59e91d.png",
+    "static/media/man-reading-book.png": "/static/media/man-reading-book.0299630af0e588eb14b7.png",
+    "static/media/add-product-form.png": "/static/media/add-product-form.c47c083e0044dd2b8121.png",
+    "static/media/book.png": "/static/media/book.e0af8fd4a5d26f1cc3ab.png",
+    "static/media/woman-loggin-in.png": "/static/media/woman-loggin-in.642d200bb20629569047.png",
+    "static/media/no-book-added.png": "/static/media/no-book-added.04c646017506dee0869a.png",
+    "static/media/book-shop.png": "/static/media/book-shop.d09808d9c6834c5e01be.png",
+    "static/media/wishlist-is-empty.png": "/static/media/wishlist-is-empty.581c9bdddbb8e80bdd1c.png",
+    "index.html": "/index.html",
+    "main.3f73f6cc.css.map": "/static/css/main.3f73f6cc.css.map",
+    "main.1d72b255.js.map": "/static/js/main.1d72b255.js.map",
+    "787.1f17f9c7.chunk.js.map": "/static/js/787.1f17f9c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f73f6cc.css",
+    "static/js/main.1d72b255.js"
+  ]
+}

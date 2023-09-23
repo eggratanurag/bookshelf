@@ -1,0 +1,76 @@
+.note {
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+
+    border-radius: 7px;
+    padding: 20px;
+    min-width: 275px;
+    
+    margin: 16px;
+    float: left;
+    cursor: pointer;
+    text-align: left;
+    transition: 
+    transform 200ms ease-in;
+
+   
+  }
+ 
+  .CardH1 {
+    color: #202020;
+    font-size: 1.5em;
+    line-height: 32px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  .note > p {
+    margin-bottom: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .note button {
+   margin-top: 20px;
+  }
+
+ .note img {
+     width: 230px;
+     height: 230px;
+     object-fit: contain;
+
+ }
+.divForCardImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height:230px;
+    margin-bottom: 10px;
+}
+
+.divForCardHeading {
+    white-space: nowrap;
+    width: 235px;
+ 
+}
+
+
+/*  heart input */
+
+.heartModeButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.heartButton {
+  
+  margin-top: 20px;
+  color: #e6b0a1;
+}
+
+
+
+  

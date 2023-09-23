@@ -1,0 +1,92 @@
+.addInput {
+	border-color: white;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+	height: 50px;
+	border-radius:5px;
+	margin-right: 10px;
+
+}
+.addInput:focus {
+	box-shadow: 0 1px 5px rgb(138, 137, 137) !important;
+}
+
+.searchButton, .filterButton {
+	color: white;
+	background-color: #393E46;
+	border: none;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+.searchButton {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+
+	
+}
+.searchIcon:hover {
+	color:#375a64
+}
+.filterButton {
+	border-radius: 30px;
+	height: 50px;
+	width: 100px;
+}
+
+.searchButton:hover, .filterButton:hover {
+		background-color: #e6b0a1;
+		/* background-color: #375a64; */
+		color: #375a64;
+}
+
+  .inputForm {
+	margin-top: 10px;
+	width: 75vw;
+	height: 60px;
+    display: flex;
+     justify-content: space-between;
+	 align-items: center;
+}
+
+.divForSearchInput {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainDivForBooksPage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.mainDivForProducts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media(max-width: 1550px) {
+	.nestedDivForProducts {
+	  width: 1240px;
+	}
+}
+@media(max-width: 1240px) {
+	.nestedDivForProducts {
+		width: 930px;
+	}
+}
+@media(max-width: 930px) {
+	.nestedDivForProducts {
+		width: 620px;
+	}
+}
+@media(max-width: 620px) {
+	.inputForm {
+		width: 95vw;
+	}
+	.nestedDivForProducts {
+		width: 310px;
+	}
+}

@@ -1,0 +1,86 @@
+.loginPageDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainDivForLogin {
+    padding: 60px;
+    width: 50vw;
+    
+    margin-top: 10rem;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-items: center;
+}
+.divForLoginImage {
+    width: 50%;
+}
+.divForLoginForm {
+    width: 50%;
+    margin-left: 40px;
+}
+.divForLoginForm > button {
+    
+    margin-top: 10px;
+}
+.inputOutline {
+    margin-bottom: 10px;
+}
+.login__registerButton {
+  
+    width: 100%;
+    background-color: #ff735d !important;
+    color: white;
+}
+.login__registerButton:hover {
+    background-color: #ED8D8D  !important;
+}
+
+@media (max-width: 1400px) {
+    .mainDivForLogin {
+        width: 80vw;
+    }
+  }
+@media (max-width: 1100px) {
+    .mainDivForLogin {
+        width: 95vw;
+    }
+  }
+@media(max-width:40em) {
+    .mainDivForLogin {
+        margin-top: 2rem;
+        padding: 40px 20px 40px;
+        flex-direction: column;
+    }
+    .divForLoginForm {
+       width: 100%;
+        margin-left: 0;
+    }
+    .divForLoginImage {
+        width: 100%;
+    }
+   
+    
+   
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus{   
+  border-color: #375a64 ;
+  box-shadow: none ;
+  outline: 0 none;
+}

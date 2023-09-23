@@ -1,0 +1,86 @@
+.tray {
+    box-shadow: 0 1px 5px rgb(138, 137, 137) ;
+    padding: 20px;
+    width: 60vw ;
+    margin: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+  }
+  
+  .nButton {
+    background-color: #375a64 !important;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .nButton:hover {
+    background-color: #1a2e35 !important;
+  }
+ .trayImageDiv img {
+     width: 230px;
+     height: 230px;
+     object-fit: contain;
+
+ }
+.trayImageDiv {
+    width: 230px;
+    height:230px;
+}
+
+.trayButtonDiv {
+ 
+  width: 90%;
+   display: flex;
+   padding-top: 20px;
+}
+.trayButtonDiv > Button {
+    margin-right: 10px ;
+   
+   
+}
+
+.trayHeading {
+
+    width: 100%;
+    margin-top: auto;
+    margin-left: 15px;
+
+}
+
+@media (max-width: 1200px) {
+   .tray {
+    width: 80vw;
+   }
+}
+@media (max-width: 700px) {
+  .trayButtonDiv > Button{
+    width: auto;
+   }
+}
+
+@media (max-width: 500px) {
+   .tray {
+    flex-direction: column;
+   }
+   .trayButtonDiv{
+    width: 100%;
+   }
+   
+   .trayHeading {
+    margin-left: 0;
+  }
+  .divFordescription {
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+}
+
+
+  

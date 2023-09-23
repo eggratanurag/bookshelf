@@ -1,0 +1,290 @@
+body {
+    text-align: center;
+}
+   /* {
+    outline: solid 3px lime;
+  } */
+
+@media (max-width: 40em) {
+  .divForIcons {
+    flex-direction: column;
+  }
+
+}
+
+  p {
+    color: #8f8f8f;
+  }
+
+ /* landing page */
+
+  .ldPageImage {
+  
+    object-fit: contain;
+  }
+  .divForLdPage {
+    display: flex;
+    justify-content: center;
+  
+  }
+  .ldPageImgDiv {
+    width: 50%;
+  }
+  .ldPageHeadingDiv {
+    width: 50%;
+    padding-top: 20px;
+  
+  }
+  
+  .ldPageHeading {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 4.0rem;
+    line-height: 1.2;
+  }
+  .first-section {
+    color: #fff;
+    background-color: #e6b0a1;
+    text-align: left;
+  }
+  .ldPageButton1,.ldPageButton2 {
+    margin: 10px 10px 5px 0;
+  }
+  .ldPageButton1 {
+    color: white;
+    background-color: #1a2e35 !important;
+  }
+  .ldPageButton1:hover {
+    background-color: #375a64 !important;
+  }
+ 
+
+/*second section*/
+
+  .container{
+    width: 75vw;
+    padding: 10rem 0 10rem;
+  
+  }
+  .whiteSectionIcon {
+    font-size: 6rem;
+    color: #1a2e35;
+  }
+  
+  .divForIcon {
+    margin: 50px;
+  }
+
+  /* third section */
+
+.guideDiv {
+    background-color: #1a2e35;
+    padding: 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.guide {
+  display: flex;
+  justify-content: center;
+  height: 30vw;
+  width: 50vw;
+  margin-right: 75px;
+ transform: translateY(10%);
+ transition: 
+ opacity 200ms ease-in,
+ transform 200ms ease-in;
+ opacity: 0;
+
+}
+.guide.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 150ms ease-in;
+}
+.fade-in.appear {
+  opacity: 1;
+}
+
+.guideImage {
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  left: 0;
+  object-fit: contain;
+}
+.guideContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  height: 20vw;
+  width: 40vw;
+  margin-left: 20%;
+  margin-top: 10%;
+  background-color: #e6b0a1;
+}
+.guideText {
+  text-align: right;
+  margin-right: 2rem;
+ width: 300px;
+margin-left: 13rem;
+ 
+}
+
+.divForIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2rem;
+ color: #1a2e35;
+  
+}
+.fiftytext {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2rem;
+   color: #1a2e35;
+}
+.guideText > p {
+  
+  color: white;
+}
+
+ 
+
+.colored-section h1 {
+  color: #e6b0a1;
+}
+.colored-section {
+ background-color: #2d4e5a;
+}
+.checkOutBtnDiv button {
+ 
+ margin: 5px;
+ width: 200px;
+}
+.checkOutBtnDiv  {
+margin-top: 50px;
+
+}
+
+.footer {
+  background-color: #000000;
+}
+.footerDiv > *{
+  margin: 10px;
+}
+
+@media (max-width: 1200px) {
+  .container{
+    width: 85vw;
+  }
+  .ldPageHeading {
+    
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 2.0rem;
+    line-height: 1.2;
+  }
+  .guideImage {
+    width: 30vw;
+    height: 30vw;
+  }
+
+ .guideContent {
+  height: 30vw;
+  width: 60vw;
+}
+ .guide {
+  height: 40vw;
+  width: 70vw;
+}
+}
+
+@media (max-width: 40em) {
+  .fiftytext {
+    font-size: 1rem;
+  }
+  .divForLdPage {
+   flex-direction: column-reverse;
+  
+  }
+  .ldPageImgDiv {
+  width: 100%;
+  
+}
+.ldPageHeadingDiv {
+    width: 100%;
+  
+  }
+  .first-section {
+    color: #fff;
+    background-color: #e6b0a1;
+    text-align: center;
+  }
+  .whiteSectionIcon {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    
+  }
+  .container{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 95vw;
+  }
+  .guideImage {
+    width: 40vw;
+    height: 40vw;
+  }
+  
+   .guideContent {
+   
+    height: 40vw;
+    width: 70vw;
+  }
+   .guide {
+    margin-right: 30px;
+    height: 50vw;
+    width: 80vw;
+  }
+  .guideText {
+    margin-right: 1rem;
+  margin-left: 8rem;
+   
+  }
+  .guideText > h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 450px) {
+  .container{
+    width: 95vw;
+  }
+  .guideText > h1 {
+    font-size: 1rem;
+  }
+  .guideImage {
+    width: 40vw;
+    height: 40vw;
+  }
+
+ .guideContent {
+  height: 50vw;
+  width: 80vw;
+}
+ .guide {
+  margin-right: 30px;
+  height: 60vw;
+  width: 90vw;
+}
+}
+

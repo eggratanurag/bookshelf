@@ -1,0 +1,92 @@
+
+
+.sideButtons {
+	border-radius: 50%;
+   color: white;
+	height: 50px;
+	width: 50px;
+	background-color: #393E46;
+	border: none;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+.sideButtonIcon:hover {
+   color: #375a64;
+}
+
+.sideButtons:hover {
+		background-color: #e6b0a1;
+		/* background-color: #375a64; */
+      
+		color: #375a64;
+}
+
+.mainDivForProducts {
+   display: flex;
+   justify-content: center;
+}
+.nestedDivForProducts {
+   width: 80vw;
+   margin-top: 30px;
+  
+}
+
+.divForSideButtons {
+  
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   top: 30px;
+}
+.divForSideButtons > * {
+margin: 5px;
+}
+.checkout__emptycart {
+   display: flex;
+   margin-top: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.checkout__emptycart > img {
+   width: 50vw;
+}
+.deleteButton,.cancelButton {
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   width: 100%;
+   height: 40px;
+  margin: 0 10px 0 10px;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+   cursor: pointer;
+   outline: none;
+   /* transition: all 0.2s ease 0s; */
+}
+.wishlistImageDiv > img {
+   width: 30vw;
+}
+.deleteButton {
+   background-color: #e6b0a1   !important;
+}
+.deleteButton:hover {
+   background-color: #ED8D8D   !important;
+}
+.cancelButton {
+   background-color: #375a64   !important;
+}
+.cancelButton:hover {
+   background-color: #1a2e35   !important;
+}
+@media(max-width:40em) {
+   .checkout__emptycart > img {
+      width: 90vw;
+   }
+   .wishlistImageDiv > img {
+      width: 90vw;
+   }
+}
