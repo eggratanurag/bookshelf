@@ -11,7 +11,7 @@ import {WishlistProvider,OrdersProvider} from "./context/productProvider";
 // console.log(`http://localhost:${PORT}/`)
 // axios.defaults.baseURL = `http://localhost:5000`;
 
-axios.defaults.baseURL = ``;
+axios.defaults.baseURL = `https://busy-lime-sweatsuit.cyclic.cloud/`;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
